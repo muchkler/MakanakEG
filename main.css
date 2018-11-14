@@ -5,17 +5,17 @@ body{
 }
 
 a{
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
 a:visited{
-    color: white;
+    color: white !important;
 }
 
 a:hover{
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 
 .landingpage{
@@ -124,10 +124,12 @@ p{
 
 .submitBTN{
     padding: 15px !important;
+    background-color: #E5292a !important;
 }
 
 button{
     border: none;
+    background-color: white !important;
     color: #E5292A;
     border-radius: 20px !important;
     padding: 10px;
@@ -142,7 +144,7 @@ button{
 
 .services{
     padding-top: 30px;
-    height: 500px;
+    height: 600px;
 }
 
 .ecoFriendly{
